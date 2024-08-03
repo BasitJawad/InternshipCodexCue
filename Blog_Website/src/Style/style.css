@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-photo{
+    height: calc(100vh - 15vh);
+    filter: brightness(100%);
+    
+}
