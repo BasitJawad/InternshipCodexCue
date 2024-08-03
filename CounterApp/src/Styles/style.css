@@ -1,0 +1,33 @@
+.buttons{
+    display: flex;
+    justify-content: space-around !important;
+}
+.text{
+    text-shadow: 0px 0px 20px rgb(103, 101, 101);
+}
+.counterApp{
+    animation: BorderA 5s linear infinite;
+    
+}
+
+
+@keyframes BorderA {
+
+    0%{
+        box-shadow: -3px -3px 20px black, inset -3px -3px 20px brown;
+    }
+    50%{
+        box-shadow: -3px -3px 20px rgb(0, 0, 0), inset -3px -3px 20px rgb(255, 2, 2);
+    }
+    100%{
+        box-shadow: -3px -3px 20px rgb(255, 0, 0), inset -3px -3px 20px rgb(0, 0, 0);
+    }
+}
+
+
+:where(.Inc,.Reset,.Dec):hover{
+    background-color: rgb(216, 216, 23) !important;
+  
+    transition: 50ms ease-in-out !important;
+    transform: scale(90%);
+}
